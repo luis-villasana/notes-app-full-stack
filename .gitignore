@@ -1,0 +1,62 @@
+# =====================
+# Dependencies
+# =====================
+node_modules/
+
+# =====================
+# Environment variables
+# =====================
+.env*
+
+# =====================
+# Expo / React Native
+# =====================
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native builds
+/ios
+/android
+
+# =====================
+# Metro
+# =====================
+.metro-health-check*
+
+# =====================
+# TypeScript
+# =====================
+*.tsbuildinfo
+
+# =====================
+# Debug logs
+# =====================
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# =====================
+# macOS / OS
+# =====================
+.DS_Store
+
+# =====================
+# Security / keys
+# =====================
+*.pem
+*.key
+*.p12
+*.p8
+*.jks
+*.mobileprovision
+
+# =====================
+# Editors
+# =====================
+.vscode/
+.idea/
+*.swp
